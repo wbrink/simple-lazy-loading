@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Intersection Observer Example</title>
+</head>
+<body>
+  <h1>Photo Gallery</h1>
+
+  <!-- how you do it with browser level lazy loading -->
+  <!-- <div class="container">
+    <img src="images\crater-lake-277123_1920.jpg" alt="" loading="lazy" width="1920" height="1080" >
+    <img src="images\crater-lake-1751456_1920.jpg" alt="" loading="lazy" width="1920" height="1080">
+    <img src="images\creek-593146_1920.jpg" alt="" loading="lazy" width="1920" height="1080">
+    <img src="images\milky-way-984050_1920.jpg" alt="" loading="lazy" width="1920" height="1080">
+    <img src="images\mystery-4532583_1920.jpg" alt="" loading="lazy" width="1920" height="1080">
+    <img src="images\sky-690293_1920.jpg" alt="" loading="lazy" width="1920" height="1080">
+    <img src="images\tree-736885.jpg" alt="" loading="lazy" width="1920" height="1080">
+    <img src="images\waters-3102729_1920.jpg" alt="" loading="lazy" width="1920" height="1080">
+  </div> -->
+
+  <div class="container">
+    <img data-src="images\crater-lake-277123_1920.jpg" alt="" width="500px" height="500px">
+    <img data-src="images\crater-lake-1751456_1920.jpg" alt="" width="500px" height="500px">
+    <img data-src="images\creek-593146_1920.jpg" alt="" width="500px" height="500px">
+    <img data-src="images\milky-way-984050_1920.jpg" alt="" width="500px" height="500px">
+    <img data-src="images\mystery-4532583_1920.jpg" alt="" width="500px" height="500px">
+    <img data-src="images\sky-690293_1920.jpg" alt="" width="500px" height="500px">
+    <img data-src="images\tree-736885.jpg" alt="" width="500px" height="500px">
+    <img data-src="images\waters-3102729_1920.jpg" alt="" width="500px" height="500px">
+  </div>
+  
+
+  <script src="./app.js"></script>
+</body>
+</html>
