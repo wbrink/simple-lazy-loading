@@ -13,6 +13,7 @@ const heading = document.querySelector("h1");
 setTimeout(() => {
   heading.style.transform = "translateX(0px)"
   heading.style.opacity = 1;
+  heading.st
 },0)
 
 
